@@ -2,9 +2,9 @@ import { Form } from "../components/Form"
 
 const Transaction = () => {
     return (
-        <div>
+        <main>
             <Form />
-        </div>
+        </main>
     )
 }
 
