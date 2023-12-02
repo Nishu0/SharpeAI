@@ -53,7 +53,7 @@ const User = () => {
   };
 
   return (
-    <div className="relative group">
+    <div className="relative group z-10">
       <div className="flex items-center h-10 gap-3 rounded-lg cursor-pointer w-fit hover:bg-slate-200 dark:hover:bg-slate-800">
         <img
           src={`https://api.dicebear.com/5.x/bottts-neutral/svg?seed=${ms}`}
