@@ -16,3 +16,7 @@ body {
   margin: 0;
   padding: 0;
 }
+
+.container {
+  @apply w-full max-w-3xl p-5 pt-20 mx-auto;
+}
