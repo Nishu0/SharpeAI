@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import './App.css'
 import Container from './components/Container';
 import Home from './pages/home';
+import NotFound from './pages/NotFound';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 
@@ -14,6 +15,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Container />}>
         <Route index element={<Home />} />
+        <Route path="*" element={<NotFound />} />
       </Route>
     </Routes>
   </BrowserRouter>
