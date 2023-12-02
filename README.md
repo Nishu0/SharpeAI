@@ -17,6 +17,14 @@
 
 ## About Task
 
+### Demo
+
+
+https://github.com/Nishu0/SharpeAI/assets/89217455/059a5522-1f25-4128-bc47-f893e834df87
+
+
+
+
 ### Home Page
 - [x] Be creative with design and content.
 - [x] No specific content requirements.
