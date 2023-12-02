@@ -2,7 +2,6 @@ export const name_validation = {
     name: 'name',
     label: 'name',
     type: 'text',
-    value: 'user.name',
     multiType : false,
     id: 'name',
     placeholder: 'write your name ...',
@@ -23,7 +22,6 @@ export const name_validation = {
     label: 'transaction Description',
     multiline: true,
     id: 'description',
-    value: 'user.description',
     placeholder: 'write transaction description ...',
     validation: {
       required: {
@@ -43,7 +41,6 @@ export const name_validation = {
     type: 'text', 
     multiType: false,
     id: 'walletAddress',
-    value: 'user.walletAddress',
     placeholder: 'Enter a valid wallet address',
     validation: {
       required: {
